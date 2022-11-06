@@ -15,7 +15,9 @@ body {
 
 header {
     background-color: rgb(121, 24, 24);
-}nav ul li {
+}
+
+nav ul li {
      position: relative;
 }
 
@@ -165,10 +167,7 @@ html, body {
 
 
 /*Часть со списком товаров*/
-.products-list {
-}
-
-.products-list .product {
+.product {
     font-weight: bold;
     position: relative;
     text-align: center;
@@ -176,7 +175,7 @@ html, body {
     border: 3px solid #000;
 }
 
-.products-list .product .price {
+.product .price {
     color: #fff;
     width: 100%;
     font-size: xx-large;
@@ -185,7 +184,7 @@ html, body {
     background-color: rgb(236, 8, 8);
 }
 
-.products-list .product .text {
+.product .text {
     width: 100%;
     color: white;
     padding-top: 2%;
@@ -193,14 +192,14 @@ html, body {
     background: linear-gradient(rgb(62, 62, 65), rgb(48, 44, 45));
 }
 
-.products-list .product .pictSect {
+.product .pictSect {
     width: 100%;
     background: white;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
-.products-list .product .pictSect img {
+.product .pictSect img {
     height: 350px;
     border-radius: 8px;
 }
@@ -301,7 +300,7 @@ footer .container {
     font-weight: bold;
     text-align: center;
     margin-bottom: 15px;
-    font-size: xxx-large;
+    font-size: xx-large;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     text-shadow: rgb(2 2 2) 10px 10px 7px;
