@@ -5,10 +5,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu">
             <li class="nav-item">
-              <router-link class="nav-link" :to="{name: 'Main'}">Главная</router-link>
+              <router-link style="padding: 10px 40px" class="nav-link" :to="{name: 'Main'}">Главная</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" :to="{name: 'Login'}">Войти</router-link>
+              <router-link style="padding: 10px 40px" class="nav-link" :to="{name: 'Login'}">Войти</router-link>
             </li>
             <li>
               <a>Пиво в социальных сетях</a>
@@ -49,7 +49,6 @@ export default {
 
   nav ul li a {
     color: white;
-    width: 180px;
     padding: 10px 20px;
     display: inline-block;
     text-decoration: none;
@@ -63,6 +62,7 @@ export default {
     top: 100%;
     display: none;
     position: absolute;
+    z-index: 1;
   }
 
   nav ul li:hover ul {
