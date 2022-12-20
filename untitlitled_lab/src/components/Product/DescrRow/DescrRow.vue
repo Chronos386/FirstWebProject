@@ -4,7 +4,7 @@
       {{ row.title }}
     </td>
     <td class="characterItem">
-      {{ row.item }}
+      {{ row.body }}
     </td>
   </tr>
 </template>
@@ -21,14 +21,42 @@ export default {
 </script>
 
 <style scoped>
+.characterTitle {
+  text-align: left;
+  font-weight: bold;
+}
+
+.characterItem {
+  text-align: right;
+}
+
+@media only screen and (min-width: 0px) {
   .characterTitle {
-    text-align: left;
+    font-size: x-small;
+  }
+
+  .characterItem {
+    font-size: x-small;
+  }
+}
+
+@media only screen and (min-width: 770px) {
+  .characterTitle {
     font-size: large;
-    font-weight: bold;
   }
 
   .characterItem {
     font-size: large;
-    text-align: right;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+  .characterTitle {
+    font-size: x-large;
+  }
+
+  .characterItem {
+    font-size: x-large;
+  }
+}
 </style>

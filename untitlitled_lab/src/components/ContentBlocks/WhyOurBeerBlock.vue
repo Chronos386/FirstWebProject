@@ -35,22 +35,37 @@ export default {
 </script>
 
 <style scoped>
-  .ourBeer {
-    display: flex;
-    margin-bottom: 10px;
-  }
+.ourBeer {
+  display: flex;
+  margin-bottom: 10px;
+}
 
-  .ourBeer .beer {
-    width: 50%;
-    margin: 15px;
-  }
+.ourBeer .beer {
+  width: 50%;
+  margin: 15px;
+}
 
-  .ourBeer .beer img {
-    width: 100%;
-  }
+.ourBeer .beer img {
+  width: 100%;
+}
 
+.subTitleCenter {
+  text-align: center;
+}
+
+@media only screen and (min-width: 0px) {
+  .subTitleCenter {
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .subTitleCenter {
+    font-size: large;
+  }
+}
+@media only screen and (min-width: 1200px) {
   .subTitleCenter {
     font-size: x-large;
-    text-align: center;
   }
+}
 </style>

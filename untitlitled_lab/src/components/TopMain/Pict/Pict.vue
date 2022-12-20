@@ -15,28 +15,39 @@ export default {
 </script>
 
 <style scoped>
-  .pict {
-    width: 40%;
-    color: #000000;
-    margin-left: 1%;
-    text-align: center;
-  }
+.pict {
+  width: 40%;
+  margin-left: 1%;
+  color: #000000;
+  text-align: center;
+}
 
+.pict .text {
+  padding: 5px;
+  color: #ffffff;
+  font-size: large;
+  background: black;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+@media only screen and (min-width: 0px) {
   .pict .text {
-    padding: 5px;
-    color: #ffffff;
+    font-size: xx-small;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .pict .text {
     font-size: large;
-    background: black;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
   }
+}
 
-  .pict img{
-    width: 100%;
-    border-top: 5px solid #000;
-    border-left: 5px solid #000;
-    border-top-left-radius: 5px;
-    border-right: 5px solid #000;
-    border-top-right-radius: 5px;
-  }
+.pict img{
+  width: 100%;
+  border-top: 5px solid #000;
+  border-left: 5px solid #000;
+  border-top-left-radius: 5px;
+  border-right: 5px solid #000;
+  border-top-right-radius: 5px;
+}
 </style>

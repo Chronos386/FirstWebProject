@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
   body {
     background: url(assets/beer.jpeg);
   }
@@ -35,7 +35,6 @@ export default {
   * {
     margin: 0;
     padding: 0;
-    font-size: 15px;
   }
 
   .wrapper {

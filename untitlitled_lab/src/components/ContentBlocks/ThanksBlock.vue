@@ -29,32 +29,47 @@ export default {
 </script>
 
 <style scoped>
-  .ourThanks {
-    display: flex;
-  }
+.ourThanks {
+  display: flex;
+}
 
-  .ourThanks .ayanamiImg {
-    width: 40%;
-  }
+.ourThanks .ayanamiImg {
+  width: 40%;
+}
 
-  .ourThanks .ayanamiImg img {
-    width: 100%;
-    border-radius: 10px;
-    border: 4px solid white;
-  }
+.ourThanks .ayanamiImg img {
+  width: 100%;
+  border-radius: 10px;
+  border: 4px solid white;
+}
 
-  .ourThanks .ayanamiTextImg {
-    width: 60%;
-  }
+.ourThanks .ayanamiTextImg {
+  width: 60%;
+}
 
+.ourThanks .ayanamiTextImg .text {
+  margin: 20px;
+}
+
+@media only screen and (min-width: 0px) {
   .ourThanks .ayanamiTextImg .text {
-    margin: 20px;
+    font-size: xx-small;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .ourThanks .ayanamiTextImg .text {
+    font-size: medium;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .ourThanks .ayanamiTextImg .text {
     font-size: large;
   }
+}
 
-  .ourThanks .ayanamiTextImg img {
-    width: 50%;
-    margin: 15px;
-    border-radius: 10px;
-  }
+.ourThanks .ayanamiTextImg img {
+  width: 50%;
+  margin: 15px;
+  border-radius: 10px;
+}
 </style>

@@ -17,24 +17,41 @@ export default {
 </script>
 
 <style scoped>
-  .quotPlace {
-    margin-top: 10px;
-    padding: 1%;
-    position: relative;
-    border-radius: 10px;
-    border: 3px solid white;
-  }
+.quotPlace {
+  margin-top: 10px;
+  padding: 1%;
+  position: relative;
+  border-radius: 10px;
+  border: 3px solid white;
+}
 
+.quotPlace .quot {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.quotPlace .author {
+  bottom: 8px;
+  right: 16px;
+  color: white;
+  font-style: italic;
+  position: absolute;
+}
+
+@media only screen and (min-width: 0px) {
   .quotPlace .quot {
-    color: white;
-    margin-bottom: 40px;
+    font-size: xx-small;
   }
-
   .quotPlace .author {
-    bottom: 8px;
-    right: 16px;
-    color: white;
-    font-style: italic;
-    position: absolute;
+    font-size: xx-small;
   }
+}
+@media only screen and (min-width: 500px) {
+  .quotPlace .quot {
+    font-size: medium;
+  }
+  .quotPlace .author {
+    font-size: medium;
+  }
+}
 </style>

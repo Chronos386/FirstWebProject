@@ -38,21 +38,21 @@ export default {
 </script>
 
 <style scoped>
-  .helloThere {
-    display: flex;
-    margin-bottom: 10px;
-  }
+.helloThere {
+  display: flex;
+  margin-bottom: 10px;
+}
 
-  .helloThere .text {
-    width: 60%;
-  }
+.helloThere .text {
+  width: 60%;
+}
 
-  .helloThere .gif {
-    width: 40%;
-    margin-left: 1%;
-  }
+.helloThere .gif {
+  width: 40%;
+  margin-left: 1%;
+}
 
-  .helloThere .gif img {
-    width: 100%;
-  }
+.helloThere .gif img {
+  width: 100%;
+}
 </style>

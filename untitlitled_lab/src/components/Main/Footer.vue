@@ -29,42 +29,67 @@ export default {
 </script>
 
 <style scoped>
-  footer {
-    color: #fff;
-    padding: 15px;
-    background-color: rgb(121, 24, 24);
-  }
+footer {
+  color: #fff;
+  padding: 15px;
+  background-color: rgb(121, 24, 24);
+}
 
-  footer .container {
-    display: flex;
-    justify-content: space-between;
-  }
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
 
+.warning {
+  width: 35%;
+  padding-top: 5px;
+  font-size: medium;
+}
+
+.warning img {
+  width: 60%;
+  display: block;
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-right: auto;
+  padding-bottom: 10px;
+}
+
+.corpInform {
+  width: 35%;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.corpInform img {
+  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-content: center;
+}
+
+@media only screen and (min-width: 0px) {
   .warning {
-    width: 35%;
-    padding-top: 5px;
+    font-size: x-small;
+  }
+  .corpInform {
+    font-size: x-small;
+  }
+}
+@media only screen and (min-width: 770px) {
+  .warning {
+    font-size: small;
+  }
+  .corpInform {
+    font-size: small;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .warning {
     font-size: medium;
   }
-
-  .warning img {
-    width: 60%;
-    display: block;
-    padding-top: 10px;
-    margin-left: 10px;
-    margin-right: auto;
-    padding-bottom: 10px;
-  }
-
   .corpInform {
-    width: 35%;
-    padding-top: 30px;
-    text-align: center;
+    font-size: medium;
   }
-
-  .corpInform img {
-    width: 80%;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    align-content: center;
-  }
+}
 </style>
